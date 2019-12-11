@@ -1,0 +1,40 @@
+{
+  "name": "node-core-app",
+  "version": "1.0.0",
+  "description": "Express boilerplate for building RESTful APIs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "jest ./api/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/senguttuvang/node-core-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senguttuvang/node-core-app/issues"
+  },
+  "homepage": "https://github.com/senguttuvang/node-core-app#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "http-status": "^1.4.2",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.2",
+    "pg": "^7.14.0",
+    "rollbar": "^2.14.4",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "jest": "^24.9.0",
+    "log-symbols": "^3.0.0",
+    "nodemon": "^2.0.0",
+    "supertest": "^4.0.2"
+  }
+}
