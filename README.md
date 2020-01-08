@@ -9,6 +9,7 @@ Boilerplate/Generator/Starter Project for building RESTful APIs and microservice
  - CORS enabled
  - Uses [yarn](https://yarnpkg.com)
  - Express + Sequelize ([sequelize](https://sequelize.org/master/index.html))
+ - Authentication and Authorization with ([passport](http://www.passportjs.org/))
  - Consistent coding styles with [editorconfig](http://editorconfig.org)
  - Uses [helmet](https://github.com/helmetjs/helmet) to set some HTTP headers for security
  - Load environment variables from .env files with [dotenv](https://github.com/motdotla/dotenv)
