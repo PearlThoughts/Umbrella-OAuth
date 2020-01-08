@@ -1,3 +1,4 @@
+Promise = require('bluebird');
 const app = require('./config/express');
 const chalk = require('chalk');
 const logSymbols = require('log-symbols');
