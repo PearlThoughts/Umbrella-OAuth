@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const cors = require('cors');
+const passport = require('passport');
+const strategies = require('./passport');
 const routes = require('../api/routes/v1');
 const error = require('../api/middlewares/error');
 const Rollbar = require('rollbar');
@@ -26,6 +28,10 @@ app.use(helmet());
 
 // enable CORS - Cross Origin Resource Sharing
 app.use(cors());
+
+// enable authentication
+app.use(passport.initialize());
+passport.use('slack', strategies.slack);
 
 // API v1 routes
 app.use('/v1', routes);
