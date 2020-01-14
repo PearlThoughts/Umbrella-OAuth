@@ -1,0 +1,10 @@
+version: 2.1
+jobs: null
+build: null
+docker:
+    -
+        image: 'circleci/node:10.16.3'
+steps:
+    - checkout
+    -
+        run: 'echo "hello world"'
