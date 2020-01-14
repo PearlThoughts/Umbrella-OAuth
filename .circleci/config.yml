@@ -3,6 +3,7 @@ jobs:
     build: 
         docker:
             - image: 'circleci/node:10.16.3'
+        working_directory: ~/code
         steps:
             - checkout
             - run: 
