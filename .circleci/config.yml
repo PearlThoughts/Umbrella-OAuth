@@ -1,6 +1,6 @@
 version: 2.1
-jobs: null
-build: null
+jobs: 
+build: 
 docker:
     -
         image: 'circleci/node:10.16.3'
