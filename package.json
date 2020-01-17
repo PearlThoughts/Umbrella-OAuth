@@ -36,6 +36,7 @@
   "devDependencies": {
     "chalk": "^3.0.0",
     "jest": "^24.9.0",
+    "jest-junit": "^10.0.0",
     "log-symbols": "^3.0.0",
     "nodemon": "^2.0.0",
     "supertest": "^4.0.2"
