@@ -4,7 +4,11 @@ module.exports = {
         [
             'jest-junit',
             {
-                outputDirectory: 'api/tests/outputs'
+                suiteName: 'Jest JUnit Unit Tests',
+                outputDirectory: 'api/tests/outputs',
+                suiteNameTemplate: '{filename}',
+                classNameTemplate: '{filename}:{classname}',
+                titleTemplate: '{title}'
             },
         ],
     ]
