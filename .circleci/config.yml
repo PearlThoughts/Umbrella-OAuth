@@ -13,4 +13,4 @@ jobs:
                 name: Run test
                 command: yarn test
             - store_test_results:
-                path: results
+                path: api/test/results
