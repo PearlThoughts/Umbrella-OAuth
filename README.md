@@ -16,6 +16,7 @@ Boilerplate/Generator/Starter Project for building RESTful APIs and microservice
  - Tests with [jest](https://jestjs.io/) and [supertest](https://github.com/visionmedia/supertest)
  - Logging with [morgan](https://github.com/expressjs/morgan)
  - Error handler with [rollbar](https://rollbar.com/)
+ - Continuous integration support with [circleci](https://circleci.com/)
 
 ## Requirements
 
