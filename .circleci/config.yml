@@ -11,6 +11,6 @@ jobs:
                 command: yarn install
             - run:
                 name: Run test
-                command: yarn test-ci
+                command: yarn test
             - store_test_results:
                 path: api/tests/outputs
