@@ -43,6 +43,12 @@ yarn add <package-name>
 cp .env.example .env
 ```
 
+#### Set database variables:
+
+```bash
+cp db.example.json db.json
+```
+
 ## Running Locally
 
 ```bash
