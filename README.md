@@ -46,7 +46,7 @@ cp .env.example .env
 #### Set database variables:
 
 ```bash
-cp db.example.json db.json
+cp config/db.example.json config/db.json
 ```
 
 ## Running Locally
