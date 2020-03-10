@@ -5,8 +5,8 @@ const helmet = require('helmet');
 const cors = require('cors');
 const passport = require('passport');
 const strategies = require('./passport');
-const routes = require('../api/routes/v1');
-const error = require('../api/middlewares/error');
+const routes = require('../routes/v1');
+const error = require('../middlewares/error');
 const Rollbar = require('rollbar');
 const { logs, rollbarEnvironment, rollbarAccessToken } = require('./vars');
 

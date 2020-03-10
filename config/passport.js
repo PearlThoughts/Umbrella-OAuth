@@ -1,7 +1,7 @@
 const JwtStrategy = require('passport-jwt').Strategy;
 const { ExtractJwt } = require('passport-jwt');
-const { jwtSecret, slackClientId, slackClientSecret } = require('./vars');
-const User = require('../api/models/user');
+const { jwtSecret } = require('./vars');
+const User = require('../models/user');
 
 const jwtOptions = {
     secretOrKey: jwtSecret,

@@ -1,4 +1,4 @@
-const app = require('../../config/express');
+const app = require('../config/express');
 const supertest = require('supertest');
 const request = supertest(app);
 

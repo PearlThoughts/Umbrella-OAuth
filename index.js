@@ -3,7 +3,7 @@ const app = require('./config/express');
 const chalk = require('chalk');
 const logSymbols = require('log-symbols');
 const { port, env } = require('./config/vars');
-const models = require('./api/models');
+const models = require('./models');
 
 const error = chalk.bold.red;
 const success = chalk.bold.green;
